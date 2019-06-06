@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/badge/license-GNU%203.0-brightgreen.svg)](https://github.com/skyme32/ValidatedXML/blob/master/LICENSE)
+[![Build Status](https://img.shields.io/badge/license-GNU%203.0-brightgreen.svg)](https://github.com/skyme32/ValidateXML/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/badge/version-v0.2.1-orange.svg)]()
 [![Build Status](https://img.shields.io/badge/platform-linux--64%20%7C%20win--32%20%7C%20win--64%20%7C%20osx--54-lightgrey.svg)]()
 [![Build Status](https://img.shields.io/badge/status-alpha-blueviolet.svg)]()
