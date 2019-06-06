@@ -9,57 +9,55 @@ Validate the directory with xml from Schema. Search all direcotories for validat
 
 
 ## New Features!
-
-- Validate the XML
-- Search all directories
-
-## Installation
-Execute JAR:
-
-- **Search inside the directory:**
-```sh
-$ java -jar validate.jar [OPTION] [input_DIR]
-```
-
-- **Search inside the directory (spacify the Schema):**
-```sh
-$ java -jar validate.jar [OPTION] [input_DIR] [file_XSD]
-```
-
-## Libraries
-- [commandline-1.7.0](https://github.com/jankroken/commandline)
-- [javax.xml-1.3.4]()
+- Uncompress the .zips 
+- find the name XML
+- ADD new Arguments
 
 ## Help
-
 ### SYNOPSIS
+- **Search inside the directory:**
 ```sh
-validate [OPTION] [DIR] [FILE]
+$ java -jar validate.jar [input_DIR]
 ```
+- **Search inside the directory (spacify the Schema):**
 ```sh
-validate [OPTION] [DIR] [FILE]
+$ java -jar validate.jar [input DIR] [XSD_FILE]
 ```
+- **Search with diferent options:**
 ```sh
-validate [OPTION] [DIR] [FILE]
+$ java -jar validate.jar -d [input DIR] -x [XSD_FILE] -t [TEMPORAL_NAME] -l [XML_NAME]
 ```
 
 ### DESCRIPTION
 List information about the Errors. Count all errors to the all files.
 - Mandatory arguments to long options are mandatory for short options
        too.
-       
-       -i, --input, 
-            search the directory input/.
-       -i, --input, 
-            search the directory input/.
-       -i, --input, 
-            search the directory input/.
-       -i, --input, 
-            search the directory input/.
-       -i, --input, 
-            search the directory input/.
-       -i, --input, 
-            search the directory input/.
+```sh
+-x, -xsd
+    filename to schema XSD
+-d, -dir
+    path to input directory
+-t, -temp
+    name to search the input directory
+-l, -xml
+    name to search the XML's
+-z, -unzip
+    uncompress the file zip and search the XML and XSD
+```
+
+## TYPE LOGS
+### SUCCESFULL
+```sh
+[2019-06-06 18:46:38.840] [INFO   ] XML: C:\..\0306006001001\example.xml 
+[2019-06-06 18:46:38.841] [INFO   ] XSD: C:\...\example_1.0.xsd 
+[2019-06-06 18:46:39.104] [CONFIG ] Succesfully Validated 
+[2019-06-06 18:46:39.104] [INFO   ] ------------------------------------------- 
+[2019-06-06 18:46:39.105] [INFO   ] Find 0 ERROR(S) to the XML's. 
+```
+### ERROR
+```sh
+
+```
 
 ## FAQS
 

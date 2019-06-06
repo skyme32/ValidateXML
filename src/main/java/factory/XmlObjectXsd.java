@@ -43,9 +43,9 @@ public class XmlObjectXsd {
             String[] strSplit = xmlerror.split(CHAR_EXECPTION);
             strError.append("ERROR:\t");
             strError.append(strSplit[4] + "\n");
-            strError.append("\t\t\t\t\t\t\t\t\t\t\t" + strSplit[2] + "\n");
-            strError.append("\t\t\t\t\t\t\t\t\t\t\t" + strSplit[3] + "\n");
-            strError.append("\t\t\t\t\t\t\t\t\t\t\t" + strSplit[1]);
+            strError.append("\t\t\t\t\t\t" + strSplit[2] + "\n");
+            strError.append("\t\t\t\t\t\t" + strSplit[3] + "\n");
+            strError.append("\t\t\t\t\t\t" + strSplit[1]);
         } else {
             strError.append(xmlerror);
         }
