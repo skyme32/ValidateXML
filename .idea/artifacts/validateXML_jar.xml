@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="validateXML:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/validateXML_jar</output-path>
+    <root id="archive" name="validateXML.jar">
+      <element id="module-output" name="validateXML" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.0.Final/validation-api-2.0.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/jankroken/commandline/1.7.0/commandline-1.7.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
